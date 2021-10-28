@@ -3,19 +3,7 @@
         <div class="container">
             <div class="catalog">
                 <div class="catalog__grid">
-                    <!-- TODO: ЦИКЛ -->
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
+                    <Card  :key="item.id" v-for="item in 12"/>
                 </div>
                 <div class="catalog__info">
                     <div :key="item.id" v-for="item in sidebarList" class="catalog__info-list">{{ item.name }}</div>

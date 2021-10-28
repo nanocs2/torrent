@@ -1,6 +1,5 @@
 <template>
-    <header>
-        <div>
+
             <div class="container">
                 <nav class="nav">
                     <div class="nav__logo"><img class="nav__logo-img" src="../../../assets/img/logo.png" /></div>
@@ -16,8 +15,6 @@
                     <div class="nav__btns btns">РЕГИСТРАЦИЯ</div>
                 </nav>
             </div>
-        </div>
-    </header>
 </template>
 
 <script>
@@ -27,12 +24,10 @@ export default {
 </script>
 
 <style lang="sass">
-// TODO: СМЭРТЬ СНИЗУ И ПОЧ В ХЕДЕРЕ
 *
-  margin: 0px
-  padding: 0px
-  margin: auto
-  font-family: 'Roboto', sans-serif
+    margin: 0px
+    padding: 0px
+    margin: auto
 
 .container
   width: 1440px
