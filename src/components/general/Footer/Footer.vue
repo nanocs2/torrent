@@ -1,11 +1,11 @@
 <template>
-    <footer>
-        <div>
-            <div class="container">
+    <div>
+        <div class="container">
+            <div class="ctn__footer">
                 <div class="footer" v-html="footerTxt"></div>
             </div>
         </div>
-    </footer>
+    </div>
 </template>
 
 <script>
@@ -20,15 +20,18 @@ export default {
     },
     mounted() {
         this.footerTxt = DataCfg.footerText;
-        console.log(DataCfg)
-    }
+        console.log(DataCfg);
+    },
 };
 </script>
 
 <style lang="sass">
-footer .container
+.container
   width: 1440px
-  background-color: black
+  height: auto  
+.ctn__footer
+  width: 100%
+  background-color: black    
 
 .footer
   width: 1070px
@@ -36,5 +39,4 @@ footer .container
   padding-top: 25px
   padding-bottom: 25px
   color: white
-
 </style>

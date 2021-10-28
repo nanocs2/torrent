@@ -2,9 +2,9 @@
     <div id="app">
         <Header />
         <Slider />
-        <!-- <Profile /> -->
         <!-- <MainPage /> -->
-        <GameInfo />
+        <!-- <GameInfo /> -->
+        <Profile />
         <Footer />
     </div>
 </template>
@@ -14,17 +14,17 @@
 import Header from "./components/general/Header/Header";
 import Footer from "./components/general/Footer/Footer";
 import Slider from "./components/general/Slider/Slider";
-// import Profile from './components/views/Profile/Profile';
-import GameInfo from "./components/views/GameInfo/GameInfo";
+import Profile from './components/views/Profile/Profile';
+// import GameInfo from "./components/views/GameInfo/GameInfo";
 export default {
     name: "App",
     components: {
         // MainPage,
-        Slider, 
+        Slider,
         Header,
         Footer,
-        // Profile,
-        GameInfo,
+        Profile,
+        // GameInfo
     },
 };
 </script>

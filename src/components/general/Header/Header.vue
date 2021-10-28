@@ -1,23 +1,20 @@
 <template>
-<header>
-    <div>
-        <div class="container">
-            <nav class="nav">
-                <div class="nav__logo"><img class="nav__logo-img" src="../../../assets/img/logo.png" /></div>
-                <div class="nav__title">
-                    <span>TGS</span>
-                    <p>Лучший бесплатный торрент-трекер</p>
-                </div>
-                <div class="nav__form">
-                    <form><input type="text" placeholder="Например: “Mount & Blade 2 Bannerlord”" /></form>
-                </div>
-                <div class="nav__lics">Я правообладатель</div>
-                <div class="nav__btns btns">ВХОД</div>
-                <div class="nav__btns btns">РЕГИСТРАЦИЯ</div>
-            </nav>
-        </div>
-    </div>
-</header>
+
+            <div class="container">
+                <nav class="nav">
+                    <div class="nav__logo"><img class="nav__logo-img" src="../../../assets/img/logo.png" /></div>
+                    <div class="nav__title">
+                        <span>TGS</span>
+                        <p>Лучший бесплатный торрент-трекер</p>
+                    </div>
+                    <div class="nav__form">
+                        <form><input type="text" placeholder="Например: “Mount & Blade 2 Bannerlord”" /></form>
+                    </div>
+                    <div class="nav__lics">Я правообладатель</div>
+                    <div class="nav__btns btns">ВХОД</div>
+                    <div class="nav__btns btns">РЕГИСТРАЦИЯ</div>
+                </nav>
+            </div>
 </template>
 
 <script>
@@ -28,10 +25,9 @@ export default {
 
 <style lang="sass">
 *
-  margin: 0px
-  padding: 0px
-  margin: auto
-  font-family: 'Roboto', sans-serif
+    margin: 0px
+    padding: 0px
+    margin: auto
 
 .container
   width: 1440px
@@ -127,5 +123,4 @@ export default {
   cursor: pointer
   transition: 0.5s
   color: white
-
 </style>
