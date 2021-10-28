@@ -3,6 +3,7 @@
         <div class="container">
             <div class="catalog">
                 <div class="catalog__grid">
+                    <!-- TODO: ЦИКЛ -->
                     <Card />
                     <Card />
                     <Card />
@@ -153,5 +154,4 @@ export default {
       height: 1px
       bottom: 11px
       left: 0px
-
 </style>

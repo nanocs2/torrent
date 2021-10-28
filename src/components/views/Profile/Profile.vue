@@ -6,6 +6,7 @@
             </div>
             <div class="users__bar">
                 <div class="users__bar-svg">
+                    <!-- TODO: ВЕКТОР В ОТДЕЛЬНЫЙ ФАЙЛ -->
                     <svg width="142" height="136" viewBox="0 0 142 136" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M71 0C31.8513 0 0 30.5054 0 68C0 105.495 31.8513 136 71 136C110.149 136 142 105.495 142 68C142 30.5054 110.149 0 71 0Z"
@@ -69,6 +70,7 @@
                 </div>
                 <div class="users__bar-window">
                     <div class="users__bar-window-t">
+                        <!-- TODO: ПУСТЫЕ КЛАССЫ? -->
                         <div class="">
                             <div class="">Имя:</div>
                             <div class="">Дата регистрации:</div>
@@ -84,13 +86,13 @@
                             <div class="">Администратор</div>
                         </div>
                     </div>
-                        <div class="users__bar-window__games">
+                    <div class="users__bar-window__games">
                         <div class="">Любимые игры:</div>
                         <div class="">
-                            Game of The Year, Game of The Year, Game of The Year Game of Th, Game of The Year, Game of The
-                            Year.
+                            Game of The Year, Game of The Year, Game of The Year Game of Th, Game of The Year, Game of
+                            The Year.
                         </div>
-                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -140,7 +142,7 @@ export default {
   height: 266px
 
 .users__bar-window-t
-  margin-top: 0px  
+  margin-top: 0px
   display: flex
 
   div
@@ -168,7 +170,6 @@ export default {
     height: 78px
     margin-left: 0px
 
-    div 
+    div
         padding-bottom: 6px
-    
 </style>

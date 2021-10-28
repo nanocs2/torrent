@@ -131,6 +131,7 @@
         <div class="gamecard__recp">
             <span>Рекомендуем скачать</span>
             <div class="gamecard__recom">
+                <!-- TODO: ЦИКЛ ИЛИ CFG -->
                 <Card />
                 <Card />
                 <Card />
@@ -145,6 +146,7 @@
             <div class="gamecard__com">Комментарии <span>(19)</span></div>
             <div class="gamecard__com-list">
                 <div class="gamecard__comlog">
+                    <!-- TODO: ВЕКТОР В ОТДЕЛЬНЫЙ ФАЙЛ -->
                     <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M40 0C17.9444 0 0 17.9444 0 40C0 62.0556 17.9444 80 40 80C62.0556 80 80 62.0556 80 40C80 17.9444 62.0556 0 40 0Z"
@@ -208,7 +210,7 @@
                     <span>19.04.2020</span>
                 </div>
                 <div class="gamecard__comTxt">
-                    <span>Philip Morris</span> <br>
+                    <span>Philip Morris</span> <br />
                     Resident Evil 2 is a survival horror game developed and published by Capcom. A remake of the 1998
                     game Resident Evil 2, it was released for Windows, PlayStation 4, and Xbox One on January 25
                     Resident Evil 2 is a survival horror game developed and published by Capcom. A remake of the 1998
@@ -218,9 +220,7 @@
                 </div>
             </div>
         </div>
-        <div class="sam">
-            lol
-        </div>
+        <div class="sam">lol</div>
     </div>
 </template>
 
@@ -451,5 +451,4 @@ export default {
         font-size: 16px;
         line-height: 150%;
         color: #000000;
-
 </style>

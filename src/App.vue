@@ -2,29 +2,27 @@
     <div id="app">
         <Header />
         <Slider />
-        <!-- <Profile /> -->
-        <!-- <MainPage /> -->
-        <GameInfo />
+        <MainPage />
         <Footer />
     </div>
 </template>
 
 <script>
-// import MainPage from "./components/views/MainPage/MainPage";
+import MainPage from "./components/views/MainPage/MainPage";
 import Header from "./components/general/Header/Header";
 import Footer from "./components/general/Footer/Footer";
 import Slider from "./components/general/Slider/Slider";
 // import Profile from './components/views/Profile/Profile';
-import GameInfo from "./components/views/GameInfo/GameInfo";
+// import GameInfo from "./components/views/GameInfo/GameInfo";
 export default {
     name: "App",
     components: {
-        // MainPage,
-        Slider, 
+        MainPage,
+        Slider,
         Header,
         Footer,
         // Profile,
-        GameInfo,
+        // GameInfo,
     },
 };
 </script>
